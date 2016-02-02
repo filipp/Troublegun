@@ -34,7 +34,7 @@ def screencapture():
 def makemail(config):
     helper = gethelper()
 
-    if "com.apple.mail" in helper:
+    if helper == "" or "com.apple.mail" in helper:
         scpt = file(getresource("mail.scpt"), "r")
     elif "entourage" in helper:
         scpt = file(getresource("entourage.scpt"), "r")
@@ -49,7 +49,6 @@ def makemail(config):
 
 def main():
     config = getconfig()
-
     if 'screencapture' in config.get('attachments'):
         config['filename'] = screencapture()
 

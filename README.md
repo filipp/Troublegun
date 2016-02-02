@@ -11,7 +11,6 @@ template with any necessary attachments (currently only a screenshot).
 - Python 2.7 or later
 - Mail.app or Microsoft Entourage
 
-
 ### Configuration
 
 Navigate to __Troublegun.app > Show package contents > Contents > Resources__ and edit config.ini to your liking.
