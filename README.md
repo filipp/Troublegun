@@ -1,8 +1,9 @@
 ### What is the meaning of this?
 
-[Troublegun](https://github.com/filipp/Troublegun) is a simple tool for collecting error reports from end users to help
-admins with troubleshooting. The idea is to make it as easy as possible for end users
-to send helpful troubleshooting info when problems occur.
+[Troublegun](https://github.com/filipp/Troublegun) is a simple tool
+for collecting error reports from end users to help admins with troubleshooting software issues.
+It composes an email (currently Mail.app or Entourage) based on an admin-defined
+template with any necessary attachments (currently only a screenshot).
 
 ### System Requirements
 
